@@ -13,15 +13,12 @@ namespace Operators_Strings_Loops
         public static int counter = 0;
         static void Main(String[] args)
         {
-            int T = Int32.Parse(Console.ReadLine());
-            /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution */
+            int T = Int32.Parse(Console.ReadLine());            
             S = new string[T];
-
 
             for ( int i = 0; i < T; i++)
             {
-                S[i] = Console.ReadLine();
-                
+                S[i] = Console.ReadLine();                
             }
            
             for (int j = 0; j < S.Length; j++)
@@ -44,11 +41,7 @@ namespace Operators_Strings_Loops
                     }
                 }
                 Console.WriteLine();
-
             }
-               
-            
-
             Console.ReadLine();
         }
     }
